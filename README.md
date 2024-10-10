@@ -51,42 +51,11 @@ Estrutura do Projeto
 
 O projeto está organizado da seguinte forma:
 
-graphql
-
-├── index.html          # Página principal do site
+├── index.html          Página principal do site
 ├── css/
-│   └── style.css       # Arquivo de estilos CSS
+│   └── style.css       Arquivo de estilos CSS
 ├── js/
-│   └── script.js       # Arquivo JavaScript para interatividade
+│   └── script.js       Arquivo JavaScript para interatividade
 └── assets/
-    ├── images/         # Imagens utilizadas no site
-    └── videos/         # Vídeos utilizados nas aulas
-
-Contribuições
-
-Contribuições são bem-vindas! Se você deseja contribuir com o projeto:
-
-    Faça um fork do repositório.
-    Crie uma nova branch:
-
-    bash
-
-git checkout -b feature/sua-feature
-
-Faça suas alterações e adicione os commits:
-
-bash
-
-git commit -m 'Adiciona nova funcionalidade'
-
-Envie suas alterações:
-
-bash
-
-    git push origin feature/sua-feature
-
-    Abra um Pull Request no repositório original.
-
-Licença
-
-Este projeto é de código aberto e está licenciado sob a Licença MIT.
+    ├── images/         Imagens utilizadas no site
+    └── videos/         Vídeos utilizados nas aulas
