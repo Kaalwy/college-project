@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto - ODS.05</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/style-character.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-character.css">
 </head>
 <body>
     <button class="theme-button" onclick="alternarTema()">Mudar Tema</button>
@@ -13,23 +13,21 @@
     <div class="container">
         <h1>Bem-vindo ao Site do Movimento Igualdade</h1>
         <p>Conscientizar para transformar!</p>
-        <a href="/html/videopage.html">
+        <a href="./html/videopage.html">
             <button class="quiz-button">Começar a aprender!</button>
         </a>
     </div>
 
-    <!-- Ícone do personagem interativo -->
     <div id="char-icon" class="char-icon" onclick="toggleDialog()">
-        <img src="/images/personagem.png" alt="Personagem Interativo" />
+        <img src="./images/personagem.png" alt="Personagem Interativo" />
     </div>
 
-    <!-- Caixa de diálogo -->
     <div id="dialog-box" class="dialog-box hidden">
         <p id="char-dialog">Olá! Bem-vindo! Clique nos botões para explorar o conteúdo.</p>
         <button onclick="nextDialog()">Próximo</button>
     </div>
 
-    <script src="../scripts/switch-theme.js"></script>
-    <script src="../scripts/character.js"></script>
+    <script src="./scripts/switch-theme.js"></script>
+    <script src="./scripts/character.js"></script>
 </body>
 </html>
