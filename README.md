@@ -30,7 +30,7 @@ Instalação e Execução
 
     bash
 
-git clone https://github.com/seu-usuario/movimento-igualdade.git
+git clone https://github.com/Kaalwy/college-project.git
 
 Navegue até a pasta do projeto:
 
