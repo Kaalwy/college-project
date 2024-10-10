@@ -1,0 +1,59 @@
+    <!DOCTYPE html>
+    <html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ODS. 05 - Módulo 1</title>
+        <link rel="stylesheet" href="../css/style-quiz.css">
+        <link rel="stylesheet" href="/css/style-character.css">
+    </head>
+    <body>
+        <div class="quiz-container">
+            <h1>Quiz: Igualdade de Gênero</h1>
+            <form id="quizForm">
+                <div class="question">
+                    <h3>1. Qual é o conceito de igualdade de gênero?</h3>
+                    <input type="radio" id="q1a1" name="q1" value="a">
+                    <label for="q1a1">A. Homens e mulheres são exatamente iguais em tudo.</label><br>
+                    <input type="radio" id="q1a2" name="q1" value="b">
+                    <label for="q1a2">B. Homens e mulheres devem ter os mesmos direitos e oportunidades.</label><br>
+                    <input type="radio" id="q1a3" name="q1" value="c">
+                    <label for="q1a3">C. Homens são naturalmente mais fortes que mulheres.</label>
+                </div>
+
+                <div class="question">
+                    <h3>2. A igualdade de gênero beneficia apenas as mulheres?</h3>
+                    <input type="radio" id="q2a1" name="q2" value="a">
+                    <label for="q2a1">A. Sim</label><br>
+                    <input type="radio" id="q2a2" name="q2" value="b">
+                    <label for="q2a2">B. Não, beneficia a sociedade como um todo.</label><br>
+                    <input type="radio" id="q2a3" name="q2" value="c">
+                    <label for="q2a3">C. Não, beneficia apenas os homens.</label>
+                </div>
+
+                <button type="button" class="submit-button" onclick="verificarRespostas()">Enviar Respostas</button>
+                <div id="resultado" class="resultado"></div>
+            </form>
+
+
+            <a href="index.html" class="back-btn">Voltar à Página Inicial</a>
+        </div>
+
+        <!-- Ícone do personagem interativo -->
+    <div id="char-icon" class="char-icon" onclick="toggleDialog()">
+        <img src="/images/personagem.png" alt="Personagem Interativo" />
+    </div>
+
+    <!-- Caixa de diálogo -->
+    <div id="dialog-box" class="dialog-box hidden">
+        <p id="char-dialog">Olá! Bem-vindo! Clique nos botões para explorar o conteúdo.</p>
+        <button onclick="nextDialog()">Próximo</button>
+    </div>
+
+        <button class="theme-toggle" onclick="toggleTheme()">Mudar Tema</button>
+
+        <script src="/scripts/verify-answer.js"></script>
+        <script src="/scripts/switch-theme.js"></script>
+        <script src="../scripts/character.js"></script>
+    </body>
+    </html>
